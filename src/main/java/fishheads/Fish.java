@@ -8,7 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.effect.DropShadow;
 
 public class Fish{
-    public ImageView fishView;
+    static ImageView fishView = new ImageView();
     private double move_distance; //possible later proc to double
     private double pos_x;
     private double pos_y;
